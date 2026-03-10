@@ -4,8 +4,6 @@ Standalone IPTV playlist sorter with local logo mapping.
 
 ## What this project does
 
-- Matches channel logos and writes local `tvg-logo` values in `input.m3u`.
-- Sorts channels according to a persistent order file: `channel_order.txt`.
 - Keeps unknown/unclassified channels at the end.
 - Supports:
   - offline conversion (`sort_m3u.py` -> `output.m3u`)
@@ -13,7 +11,7 @@ Standalone IPTV playlist sorter with local logo mapping.
 
 ## Files
 
-- `input.m3u` - source playlist (with locally mapped logos).
+- `input.m3u` - source playlist
 - `output.m3u` - generated sorted playlist.
 - `channel_order.txt` - standalone sorting order used by both converters.
 - `sort_m3u.py` - Python converter (file-to-file).
