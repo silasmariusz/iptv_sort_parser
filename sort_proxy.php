@@ -151,6 +151,29 @@ function classify_key(string $extinf, array $knownKeys, array $aliasLookup): ?st
 function load_order_file(string $path): array {
     if (!is_file($path)) return [];
     $lines = preg_split('/\R/u', file_get_contents($path) ?: '') ?: [];
+    if (array_filter($lines, fn($line) => str_starts_with((string)$line, '#EXTINF:'))) {
+        [, $entries] = parse_entries($lines);
+        $seen = [];
+        $out = [];
+        foreach ($entries as $block) {
+            $extinf = $block[0] ?? '';
+            $attrs = parse_attrs($extinf);
+            $display = str_contains($extinf, ',') ? trim(explode(',', $extinf, 2)[1]) : '';
+            $candidates = [$attrs['tvg-name'] ?? '', $display, $attrs['tvg-id'] ?? ''];
+            $key = '';
+            foreach ($candidates as $candidate) {
+                $n = norm_name((string)$candidate);
+                if ($n !== '') {
+                    $key = $n;
+                    break;
+                }
+            }
+            if ($key === '' || isset($seen[$key])) continue;
+            $seen[$key] = true;
+            $out[] = $key;
+        }
+        return $out;
+    }
     $seen = [];
     $out = [];
     foreach ($lines as $line) {
@@ -191,6 +214,43 @@ function local_logo_url_for_key(string $key, string $baseDir, string $baseUrl): 
     sort($matches, SORT_NATURAL | SORT_FLAG_CASE);
     $file = basename($matches[0]);
     return rtrim($baseUrl, '/') . '/' . $file;
+}
+
+function build_file_icon_map(string $baseDir): array {
+    $result = [];
+    $files = glob($baseDir . '/*.png') ?: [];
+    sort($files, SORT_NATURAL | SORT_FLAG_CASE);
+    foreach ($files as $path) {
+        $stem = pathinfo($path, PATHINFO_FILENAME);
+        $key = norm_name((string)$stem);
+        if ($key === '') continue;
+        $logo = './' . basename($path);
+        foreach (aliases($key) as $v) {
+            if (!isset($result[$v])) $result[$v] = $logo;
+        }
+    }
+    return $result;
+}
+
+function resolve_logo(string $extinf, ?string $key, array $iconMap, array $fileIconMap, string $baseDir, string $baseUrl): string {
+    $attrs = parse_attrs($extinf);
+    $existing = $attrs['tvg-logo'] ?? '';
+
+    if ($key !== null) {
+        $logo = $iconMap[$key] ?? $fileIconMap[$key] ?? local_logo_url_for_key($key, $baseDir, $baseUrl);
+        if ($logo !== null && $logo !== '') return $logo;
+    }
+
+    foreach (entry_names($extinf) as $name) {
+        $k = norm_name($name);
+        if ($k === '') continue;
+        foreach (aliases($k) as $v) {
+            $logo = $iconMap[$v] ?? $fileIconMap[$v] ?? null;
+            if ($logo !== null && $logo !== '') return $logo;
+        }
+    }
+
+    return $existing;
 }
 
 function base_url_for_script_dir(): string {
@@ -362,11 +422,12 @@ if ($raw === false) {
 }
 
 $baseDir = __DIR__;
-$refOrder = load_order_file($baseDir . '/channel_order.txt');
+$orderPath = is_file($baseDir . '/reference-order.m3u') ? ($baseDir . '/reference-order.m3u') : ($baseDir . '/channel_order.txt');
+$refOrder = load_order_file($orderPath);
 if (!$refOrder) {
     http_response_code(500);
     header('Content-Type: text/plain; charset=utf-8');
-    echo "Missing or empty order file: {$baseDir}/channel_order.txt\n";
+    echo "Missing or empty order file: {$orderPath}\n";
     exit;
 }
 $orderIndex = [];
@@ -374,6 +435,7 @@ foreach ($refOrder as $i => $k) $orderIndex[$k] = $i;
 $knownKeys = array_keys($orderIndex);
 $aliasLookup = build_alias_lookup($knownKeys);
 $iconMap = build_icon_map($baseDir . '/input.m3u');
+$fileIconMap = build_file_icon_map($baseDir);
 $baseUrl = base_url_for_script_dir();
 
 $lines = preg_split('/\R/u', $raw) ?: [];
@@ -384,18 +446,12 @@ $unknownBase = 1000000000;
 foreach ($entries as $i => $block) {
     $extinf = $block[0];
     $key = classify_key($extinf, $knownKeys, $aliasLookup);
-    if ($key !== null) {
-        $logo = null;
-        if (isset($iconMap[$key])) {
-            $logo = $iconMap[$key];
-            if (str_starts_with($logo, './')) {
-                $logo = $baseUrl . '/' . ltrim(substr($logo, 2), '/');
-            }
-        } else {
-            $logo = local_logo_url_for_key($key, $baseDir, $baseUrl);
-        }
-        // For recognized channels prefer local branding and do not keep provider logos.
-        $block[0] = set_attr($extinf, 'tvg-logo', $logo ?? '');
+    $logo = resolve_logo($extinf, $key, $iconMap, $fileIconMap, $baseDir, $baseUrl);
+    if (str_starts_with($logo, './')) {
+        $logo = $baseUrl . '/' . ltrim(substr($logo, 2), '/');
+    }
+    if ($logo !== '') {
+        $block[0] = set_attr($extinf, 'tvg-logo', $logo);
     }
     $rank = $key !== null && isset($orderIndex[$key]) ? $orderIndex[$key] : $unknownBase + $i;
     $sortable[] = ['rank' => $rank, 'idx' => $i, 'block' => $block];

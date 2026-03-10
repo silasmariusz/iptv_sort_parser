@@ -5,7 +5,7 @@ from pathlib import Path
 
 
 ATTR_RE = re.compile(r'([a-zA-Z0-9_-]+)="([^"]*)"')
-DEFAULT_ORDER_FILE = "channel_order.txt"
+DEFAULT_ORDER_FILE = "reference-order.m3u"
 
 
 def norm(text: str) -> str:
@@ -98,6 +98,16 @@ def parse_entries(lines: list[str]) -> tuple[list[str], list[list[str]]]:
     return preamble, entries
 
 
+def primary_entry_key(extinf: str) -> str:
+    attrs = parse_attrs(extinf)
+    display = extinf.split(",", 1)[1].strip() if "," in extinf else ""
+    for candidate in (attrs.get("tvg-name", ""), display, attrs.get("tvg-id", "")):
+        key = norm(candidate)
+        if key:
+            return key
+    return ""
+
+
 def entry_names(extinf: str) -> list[str]:
     attrs = parse_attrs(extinf)
     display = extinf.split(",", 1)[1].strip() if "," in extinf else ""
@@ -155,6 +165,16 @@ def load_order_file(path: Path) -> list[str]:
     if not path.exists():
         return []
     lines = path.read_text(encoding="utf-8", errors="ignore").splitlines()
+    if any(line.startswith("#EXTINF:") for line in lines):
+        _, entries = parse_entries(lines)
+        out: list[str] = []
+        seen: set[str] = set()
+        for block in entries:
+            key = primary_entry_key(block[0])
+            if key and key not in seen:
+                seen.add(key)
+                out.append(key)
+        return out
     out: list[str] = []
     seen: set[str] = set()
     for line in lines:
@@ -186,6 +206,39 @@ def build_local_icon_map(m3u_path: Path) -> dict[str, str]:
     return result
 
 
+def build_file_icon_map(base_dir: Path) -> dict[str, str]:
+    result: dict[str, str] = {}
+    for p in sorted(base_dir.glob("*.png")):
+        key = norm(p.stem)
+        if not key:
+            continue
+        logo = f"./{p.name}"
+        for v in aliases(key):
+            result.setdefault(v, logo)
+    return result
+
+
+def resolve_logo(extinf: str, key: str | None, icon_map: dict[str, str], file_icon_map: dict[str, str]) -> str:
+    attrs = parse_attrs(extinf)
+    existing_logo = attrs.get("tvg-logo", "")
+
+    if key:
+        logo = icon_map.get(key) or file_icon_map.get(key)
+        if logo:
+            return logo
+
+    for n in entry_names(extinf):
+        k = norm(n)
+        if not k:
+            continue
+        for v in aliases(k):
+            logo = icon_map.get(v) or file_icon_map.get(v)
+            if logo:
+                return logo
+
+    return existing_logo
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="Sort M3U according to reference playlists and set local logos.")
     parser.add_argument("--input", default="input.m3u")
@@ -210,14 +263,16 @@ def main() -> None:
     known_keys = list(order_index.keys())
     alias_lookup = build_alias_lookup(known_keys)
     icon_map = build_local_icon_map(icons_source)
+    file_icon_map = build_file_icon_map(base)
 
     sortable = []
     unknown = 0
     for i, block in enumerate(entries):
         extinf = block[0]
         key = classify_key(extinf, known_keys, alias_lookup)
-        if key and key in icon_map:
-            block[0] = set_attr(extinf, "tvg-logo", icon_map[key])
+        logo = resolve_logo(extinf, key, icon_map, file_icon_map)
+        if logo:
+            block[0] = set_attr(extinf, "tvg-logo", logo)
         elif key is None:
             unknown += 1
         rank = order_index.get(key, 10**9 + i)
