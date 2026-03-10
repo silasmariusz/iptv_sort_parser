@@ -183,6 +183,16 @@ function build_icon_map(string $path): array {
     return $result;
 }
 
+function local_logo_url_for_key(string $key, string $baseDir, string $baseUrl): ?string {
+    $base = str_replace(' ', '_', $key);
+    $pattern = $baseDir . '/' . $base . '*.png';
+    $matches = glob($pattern) ?: [];
+    if (!$matches) return null;
+    sort($matches, SORT_NATURAL | SORT_FLAG_CASE);
+    $file = basename($matches[0]);
+    return rtrim($baseUrl, '/') . '/' . $file;
+}
+
 function base_url_for_script_dir(): string {
     $forwardedProto = strtolower(trim(explode(',', (string)($_SERVER['HTTP_X_FORWARDED_PROTO'] ?? ''))[0] ?? ''));
     $forwardedHost = trim(explode(',', (string)($_SERVER['HTTP_X_FORWARDED_HOST'] ?? ''))[0] ?? '');
@@ -374,12 +384,18 @@ $unknownBase = 1000000000;
 foreach ($entries as $i => $block) {
     $extinf = $block[0];
     $key = classify_key($extinf, $knownKeys, $aliasLookup);
-    if ($key !== null && isset($iconMap[$key])) {
-        $logo = $iconMap[$key];
-        if (str_starts_with($logo, './')) {
-            $logo = $baseUrl . '/' . ltrim(substr($logo, 2), '/');
+    if ($key !== null) {
+        $logo = null;
+        if (isset($iconMap[$key])) {
+            $logo = $iconMap[$key];
+            if (str_starts_with($logo, './')) {
+                $logo = $baseUrl . '/' . ltrim(substr($logo, 2), '/');
+            }
+        } else {
+            $logo = local_logo_url_for_key($key, $baseDir, $baseUrl);
         }
-        $block[0] = set_attr($extinf, 'tvg-logo', $logo);
+        // For recognized channels prefer local branding and do not keep provider logos.
+        $block[0] = set_attr($extinf, 'tvg-logo', $logo ?? '');
     }
     $rank = $key !== null && isset($orderIndex[$key]) ? $orderIndex[$key] : $unknownBase + $i;
     $sortable[] = ['rank' => $rank, 'idx' => $i, 'block' => $block];
