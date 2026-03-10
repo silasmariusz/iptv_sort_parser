@@ -1,0 +1,483 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="Canal+ 360" tvg-name="PL: CANAL+ 360" tvg-logo="./canal_plus_360.png" group-title="PL - Polish & Poland - Live",PL: CANAL+ 360
+http://iptv_host.us:8880/username/password/1050296
+#EXTINF:-1 tvg-id="KSW" tvg-name="PL: KSW/MMA (backup)" tvg-logo="./ksw.png" group-title="PL - Polish & Poland - Live",PL: KSW/MMA (backup)
+http://iptv_host.us:8880/username/password/903666
+#EXTINF:-1 tvg-id="Active Family" tvg-name="PL: Active Family HD" tvg-logo="./active_family.png" group-title="PL - Polish & Poland - Live",PL: Active Family HD
+http://iptv_host.us:8880/username/password/60250
+#EXTINF:-1 tvg-id="Adventure" tvg-name="PL: Adventure HD" tvg-logo="./adventure.png" group-title="PL - Polish & Poland - Live",PL: Adventure HD
+http://iptv_host.us:8880/username/password/133761
+#EXTINF:-1 tvg-id="Ale Kino+" tvg-name="PL: ALE KINO HD" tvg-logo="./ale_kino_plus.png" group-title="PL - Polish & Poland - Live",PL: ALE KINO HD
+http://iptv_host.us:8880/username/password/29492
+#EXTINF:-1 tvg-id="AMC" tvg-name="PL: AMC HD" tvg-logo="./amc.png" group-title="PL - Polish & Poland - Live",PL: AMC HD
+http://iptv_host.us:8880/username/password/60252
+#EXTINF:-1 tvg-id="Animal Planet" tvg-name="PL: Animal Planet HD" tvg-logo="./animal_planet.png" group-title="PL - Polish & Poland - Live",PL: Animal Planet HD
+http://iptv_host.us:8880/username/password/29493
+#EXTINF:-1 tvg-id="TVP Rozrywka" tvg-name="PL: ATM Rozrywka TV HD" tvg-logo="./tvp_rozrywka.png" group-title="PL - Polish & Poland - Live",PL: ATM Rozrywka TV HD
+http://iptv_host.us:8880/username/password/60254
+#EXTINF:-1 tvg-id="AXN Black" tvg-name="PL: AXN Black HD" tvg-logo="./axn_black.png" group-title="PL - Polish & Poland - Live",PL: AXN Black HD
+http://iptv_host.us:8880/username/password/60256
+#EXTINF:-1 tvg-id="AXN" tvg-name="PL: AXN HD" tvg-logo="./axn.png" group-title="PL - Polish & Poland - Live",PL: AXN HD
+http://iptv_host.us:8880/username/password/60255
+#EXTINF:-1 tvg-id="AXN Spin" tvg-name="PL: AXN SPIN HD" tvg-logo="./axn_spin.png" group-title="PL - Polish & Poland - Live",PL: AXN SPIN HD
+http://iptv_host.us:8880/username/password/133762
+#EXTINF:-1 tvg-id="AXN White" tvg-name="PL: AXN White HD" tvg-logo="./axn_white.png" group-title="PL - Polish & Poland - Live",PL: AXN White HD
+http://iptv_host.us:8880/username/password/60259
+#EXTINF:-1 tvg-id="AXN White" tvg-name="PL: AXN White HD" tvg-logo="./axn_white_2.png" group-title="PL - Polish & Poland - Live",PL: AXN White HD
+http://iptv_host.us:8880/username/password/29495
+#EXTINF:-1 tvg-id="Baby TV" tvg-name="PL: BABY TV HD" tvg-logo="./baby.png" group-title="PL - Polish & Poland - Live",PL: BABY TV HD
+http://iptv_host.us:8880/username/password/114026
+#EXTINF:-1 tvg-id="BBC Brit" tvg-name="PL: BBC BRIT HD" tvg-logo="./bbc_brit.png" group-title="PL - Polish & Poland - Live",PL: BBC BRIT HD
+http://iptv_host.us:8880/username/password/133810
+#EXTINF:-1 tvg-id="BBC Earth" tvg-name="PL: BBC Earth 4K+ HD" tvg-logo="./bbc_earth.png" group-title="PL - Polish & Poland - Live",PL: BBC Earth 4K+ HD
+http://iptv_host.us:8880/username/password/144298
+#EXTINF:-1 tvg-id="BBC Earth" tvg-name="PL: BBC Earth HD" tvg-logo="./bbc_earth_2.png" group-title="PL - Polish & Poland - Live",PL: BBC Earth HD
+http://iptv_host.us:8880/username/password/60260
+#EXTINF:-1 tvg-id="BBC First" tvg-name="PL: BBC First HD" tvg-logo="./bbc_first.png" group-title="PL - Polish & Poland - Live",PL: BBC First HD
+http://iptv_host.us:8880/username/password/60261
+#EXTINF:-1 tvg-id="BBC Lifestyle" tvg-name="PL: BBC LIFE STYLE HD" tvg-logo="./bbc_lifestyle.png" group-title="PL - Polish & Poland - Live",PL: BBC LIFE STYLE HD
+http://iptv_host.us:8880/username/password/708736
+#EXTINF:-1 tvg-id="Bloomberg" tvg-name="PL: Boomerang HD" tvg-logo="./bloomberg.png" group-title="PL - Polish & Poland - Live",PL: Boomerang HD
+http://iptv_host.us:8880/username/password/29496
+#EXTINF:-1 tvg-id="Canal+ 1" tvg-name="PL: Canal 1 HD" tvg-logo="./canal_plus_1.png" group-title="PL - Polish & Poland - Live",PL: Canal 1 HD
+http://iptv_host.us:8880/username/password/114027
+#EXTINF:-1 tvg-id="Canal+ Family" tvg-name="PL: Canal Family HD" tvg-logo="./canal_plus_family.png" group-title="PL - Polish & Poland - Live",PL: Canal Family HD
+http://iptv_host.us:8880/username/password/29497
+#EXTINF:-1 tvg-id="Canal+ Film" tvg-name="PL: Canal FILM HD" tvg-logo="./canal_plus_film.png" group-title="PL - Polish & Poland - Live",PL: Canal FILM HD
+http://iptv_host.us:8880/username/password/60265
+#EXTINF:-1 tvg-id="Canal+ Film" tvg-name="PL: Canal FILM HD" tvg-logo="./canal_plus_film_2.png" group-title="PL - Polish & Poland - Live",PL: Canal FILM HD
+http://iptv_host.us:8880/username/password/29498
+#EXTINF:-1 tvg-id="Canal+ Seriale" tvg-name="PL: Canal Seriale HD" tvg-logo="./canal_plus_seriale.png" group-title="PL - Polish & Poland - Live",PL: Canal Seriale HD
+http://iptv_host.us:8880/username/password/29500
+#EXTINF:-1 tvg-id="Canal+ Sport" tvg-name="PL: Canal Sport 1 PLUS HD" tvg-logo="./canal_plus_sport.png" group-title="PL - Polish & Poland - Live",PL: Canal Sport 1 PLUS HD
+http://iptv_host.us:8880/username/password/29501
+#EXTINF:-1 tvg-id="Canal+ Sport 2" tvg-name="PL: Canal Sport 2 HD" tvg-logo="./canal_plus_sport_2.png" group-title="PL - Polish & Poland - Live",PL: Canal Sport 2 HD
+http://iptv_host.us:8880/username/password/114034
+#EXTINF:-1 tvg-id="Canal+ 1" tvg-name="PL: Canal+ 1 HD" tvg-logo="./canal_plus_1_2.png" group-title="PL - Polish & Poland - Live",PL: Canal+ 1 HD
+http://iptv_host.us:8880/username/password/114089
+#EXTINF:-1 tvg-id="Canal+ UHD FR" tvg-name="PL: Canal+ 4K HD" tvg-logo="./canal_plus_family.png" group-title="PL - Polish & Poland - Live",PL: Canal+ 4K HD
+http://iptv_host.us:8880/username/password/689909
+#EXTINF:-1 tvg-id="Canal+ Domo" tvg-name="PL: Canal+ DOMO HD" tvg-logo="./canal_plus_domo.png" group-title="PL - Polish & Poland - Live",PL: Canal+ DOMO HD
+http://iptv_host.us:8880/username/password/613284
+#EXTINF:-1 tvg-id="Canal+ Family" tvg-name="PL: Canal+ Family HD" tvg-logo="./canal_plus_family.png" group-title="PL - Polish & Poland - Live",PL: Canal+ Family HD
+http://iptv_host.us:8880/username/password/114090
+#EXTINF:-1 tvg-id="Canal+ Premium" tvg-name="PL: Canal+ Premium HD" tvg-logo="./canal_plus_premium.png" group-title="PL - Polish & Poland - Live",PL: Canal+ Premium HD
+http://iptv_host.us:8880/username/password/613286
+#EXTINF:-1 tvg-id="Canal+ Seriale" tvg-name="PL: Canal+ Seriale HD" tvg-logo="./canal_plus_seriale_2.png" group-title="PL - Polish & Poland - Live",PL: Canal+ Seriale HD
+http://iptv_host.us:8880/username/password/114093
+#EXTINF:-1 tvg-id="Canal+ Sport" tvg-name="PL: Canal+ Sport 1 HD" tvg-logo="./canal_plus_sport_2.png" group-title="PL - Polish & Poland - Live",PL: Canal+ Sport 1 HD
+http://iptv_host.us:8880/username/password/114094
+#EXTINF:-1 tvg-id="Canal+ Sport 2" tvg-name="PL: Canal+ Sport 2 FHD" tvg-logo="./canal_plus_sport_2_2.png" group-title="PL - Polish & Poland - Live",PL: Canal+ Sport 2 FHD
+http://iptv_host.us:8880/username/password/460110
+#EXTINF:-1 tvg-id="Canal+ Sport 2" tvg-name="PL: Canal+ Sport 2 HD" tvg-logo="./canal_plus_sport_2_3.png" group-title="PL - Polish & Poland - Live",PL: Canal+ Sport 2 HD
+http://iptv_host.us:8880/username/password/114095
+#EXTINF:-1 tvg-id="Canal+ Sport 3" tvg-name="PL: Canal+ Sport 3 HD" tvg-logo="./canal_plus_sport_3.png" group-title="PL - Polish & Poland - Live",PL: Canal+ Sport 3 HD
+http://iptv_host.us:8880/username/password/639787
+#EXTINF:-1 tvg-id="Canal+ Sport 4" tvg-name="PL: Canal+ Sport 4 FHD" tvg-logo="./canal_plus_sport_4.png" group-title="PL - Polish & Poland - Live",PL: Canal+ Sport 4 FHD
+http://iptv_host.us:8880/username/password/460111
+#EXTINF:-1 tvg-id="Canal+ Sport 5" tvg-name="PL: CANAL+ SPORT 5" tvg-logo="./canal_plus_sport_5.png" group-title="PL - Polish & Poland - Live",PL: CANAL+ SPORT 5
+http://iptv_host.us:8880/username/password/908050
+#EXTINF:-1 tvg-id="Canal+ Sport" tvg-name="PL: Canal+ Sport 4K+ HD" tvg-logo="./canal_plus_sport_3.png" group-title="PL - Polish & Poland - Live",PL: Canal+ Sport 4K+ HD
+http://iptv_host.us:8880/username/password/144333
+#EXTINF:-1 tvg-id="Canal+ Sport" tvg-name="PL: Canal+ Sport FHD" tvg-logo="./canal_plus_sport_4.png" group-title="PL - Polish & Poland - Live",PL: Canal+ Sport FHD
+http://iptv_host.us:8880/username/password/460109
+#EXTINF:-1 tvg-id="Cartoon Network" tvg-name="PL: Cartoon Network HD" tvg-logo="./cartoon_network.png" group-title="PL - Polish & Poland - Live",PL: Cartoon Network HD
+http://iptv_host.us:8880/username/password/133766
+#EXTINF:-1 tvg-id="CARTOONITO" tvg-name="PL: CARTOONITO" tvg-logo="./cartoonito.png" group-title="PL - Polish & Poland - Live",PL: CARTOONITO
+http://iptv_host.us:8880/username/password/708727
+#EXTINF:-1 tvg-id="BBC CBeebies" tvg-name="PL: CBEEBIES" tvg-logo="./bbc_cbeebies.png" group-title="PL - Polish & Poland - Live",PL: CBEEBIES
+http://iptv_host.us:8880/username/password/708728
+#EXTINF:-1 tvg-id="CBS Europa" tvg-name="PL: CBS EUROPA" tvg-logo="./cbs_europa.png" group-title="PL - Polish & Poland - Live",PL: CBS EUROPA
+http://iptv_host.us:8880/username/password/708724
+#EXTINF:-1 tvg-id="CBS REALITY" tvg-name="PL: CBS Reality FHD" tvg-logo="./cbs_reality.png" group-title="PL - Polish & Poland - Live",PL: CBS Reality FHD
+http://iptv_host.us:8880/username/password/29503
+#EXTINF:-1 tvg-id="Cinemax 2" tvg-name="PL: Cinemax 2 HD" tvg-logo="./cinemax_2.png" group-title="PL - Polish & Poland - Live",PL: Cinemax 2 HD
+http://iptv_host.us:8880/username/password/133768
+#EXTINF:-1 tvg-id="Cinemax" tvg-name="PL: Cinemax HD" tvg-logo="./cinemax.png" group-title="PL - Polish & Poland - Live",PL: Cinemax HD
+http://iptv_host.us:8880/username/password/60279
+#EXTINF:-1 tvg-id="Comedy Central" tvg-name="PL: Comedy Central Family HD" tvg-logo="./comedy_central.png" group-title="PL - Polish & Poland - Live",PL: Comedy Central Family HD
+http://iptv_host.us:8880/username/password/114039
+#EXTINF:-1 tvg-id="Comedy Central" tvg-name="PL: Comedy Central HD" tvg-logo="./comedy_central_2.png" group-title="PL - Polish & Poland - Live",PL: Comedy Central HD
+http://iptv_host.us:8880/username/password/29504
+#EXTINF:-1 tvg-id="Disco Polo Music" tvg-name="PL: Disco POLO Music FHD" tvg-logo="./disco_polo_music.png" group-title="PL - Polish & Poland - Live",PL: Disco POLO Music FHD
+http://iptv_host.us:8880/username/password/60281
+#EXTINF:-1 tvg-id="Disco Polo Music" tvg-name="PL: Disco POLO Music TV HD" tvg-logo="./disco_polo_music_2.png" group-title="PL - Polish & Poland - Live",PL: Disco POLO Music TV HD
+http://iptv_host.us:8880/username/password/29505
+#EXTINF:-1 tvg-id="Discovery Channel" tvg-name="PL: Discovery Channel HD" tvg-logo="./discovery.png" group-title="PL - Polish & Poland - Live",PL: Discovery Channel HD
+http://iptv_host.us:8880/username/password/114040
+#EXTINF:-1 tvg-id="Discovery Channel" tvg-name="PL: Discovery Channel HD" tvg-logo="./discovery_2.png" group-title="PL - Polish & Poland - Live",PL: Discovery Channel HD
+http://iptv_host.us:8880/username/password/29506
+#EXTINF:-1 tvg-id="Discovery Channel" tvg-name="PL: Discovery HD" tvg-logo="./discovery_3.png" group-title="PL - Polish & Poland - Live",PL: Discovery HD
+http://iptv_host.us:8880/username/password/60282
+#EXTINF:-1 tvg-id="Discovery Historia" tvg-name="PL: Discovery Historia HD" tvg-logo="./discovery_historia.png" group-title="PL - Polish & Poland - Live",PL: Discovery Historia HD
+http://iptv_host.us:8880/username/password/60283
+#EXTINF:-1 tvg-id="Discovery Life" tvg-name="PL: Discovery LIFE FHD" tvg-logo="./discovery_life.png" group-title="PL - Polish & Poland - Live",PL: Discovery LIFE FHD
+http://iptv_host.us:8880/username/password/133769
+#EXTINF:-1 tvg-id="Discovery Life" tvg-name="PL: Discovery LIFE HD" tvg-logo="./discovery_life_2.png" group-title="PL - Polish & Poland - Live",PL: Discovery LIFE HD
+http://iptv_host.us:8880/username/password/29507
+#EXTINF:-1 tvg-id="Discovery Science" tvg-name="PL: Discovery Science HD" tvg-logo="./discovery_science.png" group-title="PL - Polish & Poland - Live",PL: Discovery Science HD
+http://iptv_host.us:8880/username/password/133770
+#EXTINF:-1 tvg-id="Discovery Ultra 4K" tvg-name="PL: Discovery Turbo XTRA HD" tvg-logo="./discovery_ultra.png" group-title="PL - Polish & Poland - Live",PL: Discovery Turbo XTRA HD
+http://iptv_host.us:8880/username/password/114041
+#EXTINF:-1 tvg-id="Disney Channel" tvg-name="PL: Disney Channel HD" tvg-logo="./disney.png" group-title="PL - Polish & Poland - Live",PL: Disney Channel HD
+http://iptv_host.us:8880/username/password/133771
+#EXTINF:-1 tvg-id="Disney Channel" tvg-name="PL: Disney Channel HD" tvg-logo="./disney_2.png" group-title="PL - Polish & Poland - Live",PL: Disney Channel HD
+http://iptv_host.us:8880/username/password/29509
+#EXTINF:-1 tvg-id="Disney Junior" tvg-name="PL: Disney JR HD" tvg-logo="./disney_junior.png" group-title="PL - Polish & Poland - Live",PL: Disney JR HD
+http://iptv_host.us:8880/username/password/133819
+#EXTINF:-1 tvg-id="Disney XD" tvg-name="PL: Disney XD HD" tvg-logo="./disney_xd.png" group-title="PL - Polish & Poland - Live",PL: Disney XD HD
+http://iptv_host.us:8880/username/password/29510
+#EXTINF:-1 tvg-id="Polsat Doku" tvg-name="PL: DOKU HD" tvg-logo="./polsat_doku.png" group-title="PL - Polish & Poland - Live",PL: DOKU HD
+http://iptv_host.us:8880/username/password/133821
+#EXTINF:-1 tvg-id="DTX" tvg-name="PL: DTX HD" tvg-logo="./dtx.png" group-title="PL - Polish & Poland - Live",PL: DTX HD
+http://iptv_host.us:8880/username/password/60290
+#EXTINF:-1 tvg-id="E! Entertainment" tvg-name="PL: E!" tvg-logo="./e_entertainment.png" group-title="PL - Polish & Poland - Live",PL: E!
+http://iptv_host.us:8880/username/password/708737
+#EXTINF:-1 tvg-id="Eleven Sports 1" tvg-name="PL: Eleven Sport 1 FHD" tvg-logo="./eleven_sports_1.png" group-title="PL - Polish & Poland - Live",PL: Eleven Sport 1 FHD
+http://iptv_host.us:8880/username/password/29568
+#EXTINF:-1 tvg-id="Eleven Sports 1" tvg-name="PL: Eleven Sport 1 HD" tvg-logo="./eleven_sports_1_2.png" group-title="PL - Polish & Poland - Live",PL: Eleven Sport 1 HD
+http://iptv_host.us:8880/username/password/114104
+#EXTINF:-1 tvg-id="Eleven Sports 3" tvg-name="PL: Eleven Sport 3 FHD" tvg-logo="./eleven_sports_3.png" group-title="PL - Polish & Poland - Live",PL: Eleven Sport 3 FHD
+http://iptv_host.us:8880/username/password/114106
+#EXTINF:-1 tvg-id="Eleven Sports 2" tvg-name="PL: Eleven Sports 2 FHD" tvg-logo="./eleven_sports_2.png" group-title="PL - Polish & Poland - Live",PL: Eleven Sports 2 FHD
+http://iptv_host.us:8880/username/password/29616
+#EXTINF:-1 tvg-id="Eleven Sports 3" tvg-name="PL: Eleven Sports 3 FHD" tvg-logo="./eleven_sports_3_2.png" group-title="PL - Polish & Poland - Live",PL: Eleven Sports 3 FHD
+http://iptv_host.us:8880/username/password/133774
+#EXTINF:-1 tvg-id="Eleven Sports 3" tvg-name="PL: Eleven Sports 3 HD" tvg-logo="./eleven_sports_3_3.png" group-title="PL - Polish & Poland - Live",PL: Eleven Sports 3 HD
+http://iptv_host.us:8880/username/password/29617
+#EXTINF:-1 tvg-id="Eleven Sports 4" tvg-name="PL: Eleven Sports 4 HD" tvg-logo="./eleven_sports_4.png" group-title="PL - Polish & Poland - Live",PL: Eleven Sports 4 HD
+http://iptv_host.us:8880/username/password/29618
+#EXTINF:-1 tvg-id="Eleven Sports 4" tvg-name="PL: Eleven Sports 4 HD" tvg-logo="./eleven_sports_4_2.png" group-title="PL - Polish & Poland - Live",PL: Eleven Sports 4 HD
+http://iptv_host.us:8880/username/password/133775
+#EXTINF:-1 tvg-id="Epic Drama" tvg-name="PL: EPIC Drama HD" tvg-logo="./epic_drama.png" group-title="PL - Polish & Poland - Live",PL: EPIC Drama HD
+http://iptv_host.us:8880/username/password/133822
+#EXTINF:-1 tvg-id="Eska Rock TV" tvg-name="PL: ESKA ROCK TV" tvg-logo="./eska_rock.png" group-title="PL - Polish & Poland - Live",PL: ESKA ROCK TV
+http://iptv_host.us:8880/username/password/708739
+#EXTINF:-1 tvg-id="Eska TV Extra" tvg-name="PL: ESKA TV Extra HD" tvg-logo="./eska_extra.png" group-title="PL - Polish & Poland - Live",PL: ESKA TV Extra HD
+http://iptv_host.us:8880/username/password/60298
+#EXTINF:-1 tvg-id="Eska TV" tvg-name="PL: ESKA TV HD" tvg-logo="./eska.png" group-title="PL - Polish & Poland - Live",PL: ESKA TV HD
+http://iptv_host.us:8880/username/password/29512
+#EXTINF:-1 tvg-id="Eurosport 1 UK" tvg-name="PL: Eurosport 1 HD" tvg-logo="./eurosport_1_uk.png" group-title="PL - Polish & Poland - Live",PL: Eurosport 1 HD
+http://iptv_host.us:8880/username/password/29513
+#EXTINF:-1 tvg-id="Eurosport 1 UK" tvg-name="PL: Eurosport 1 4K+ HD" tvg-logo="./eurosport_1_uk.png" group-title="PL - Polish & Poland - Live",PL: Eurosport 1 4K+ HD
+http://iptv_host.us:8880/username/password/144334
+#EXTINF:-1 tvg-id="Eurosport 2" tvg-name="PL: Eurosport 2 HD" tvg-logo="./eurosport_2.png" group-title="PL - Polish & Poland - Live",PL: Eurosport 2 HD
+http://iptv_host.us:8880/username/password/133776
+#EXTINF:-1 tvg-id="Eurosport 2" tvg-name="PL: Eurosport 2 HD" tvg-logo="./eurosport_2_2.png" group-title="PL - Polish & Poland - Live",PL: Eurosport 2 HD
+http://iptv_host.us:8880/username/password/29514
+#EXTINF:-1 tvg-id="Extreme Sports Channel" tvg-name="PL: EXTREME SPORTS" tvg-logo="./extreme_sports.png" group-title="PL - Polish & Poland - Live",PL: EXTREME SPORTS
+http://iptv_host.us:8880/username/password/708721
+#EXTINF:-1 tvg-id="FightBox" tvg-name="PL: Fightbox FHD" tvg-logo="./fightbox.png" group-title="PL - Polish & Poland - Live",PL: Fightbox FHD
+http://iptv_host.us:8880/username/password/133777
+#EXTINF:-1 tvg-id="FilmBox Action" tvg-name="PL: Filmbox Action HD" tvg-logo="./filmbox_action.png" group-title="PL - Polish & Poland - Live",PL: Filmbox Action HD
+http://iptv_host.us:8880/username/password/60305
+#EXTINF:-1 tvg-id="Filmbox Arthouse" tvg-name="PL: Filmbox Arthouse HD" tvg-logo="./filmbox_arthouse.png" group-title="PL - Polish & Poland - Live",PL: Filmbox Arthouse HD
+http://iptv_host.us:8880/username/password/60306
+#EXTINF:-1 tvg-id="Filmbox Extra HD" tvg-name="PL: Filmbox Extra HD" tvg-logo="./filmbox_extra.png" group-title="PL - Polish & Poland - Live",PL: Filmbox Extra HD
+http://iptv_host.us:8880/username/password/133778
+#EXTINF:-1 tvg-id="Filmbox Extra HD" tvg-name="PL: Filmbox Extra HD" tvg-logo="./filmbox_extra_2.png" group-title="PL - Polish & Poland - Live",PL: Filmbox Extra HD
+http://iptv_host.us:8880/username/password/29517
+#EXTINF:-1 tvg-id="Filmbox Family" tvg-name="PL: Filmbox Family HD" tvg-logo="./filmbox_family.png" group-title="PL - Polish & Poland - Live",PL: Filmbox Family HD
+http://iptv_host.us:8880/username/password/29518
+#EXTINF:-1 tvg-id="Filmbox Family" tvg-name="PL: Filmbox Family HD" tvg-logo="./filmbox_family_2.png" group-title="PL - Polish & Poland - Live",PL: Filmbox Family HD
+http://iptv_host.us:8880/username/password/60308
+#EXTINF:-1 tvg-id="Filmbox Premium HD" tvg-name="PL: Filmbox Premium FHD" tvg-logo="./filmbox_premium.png" group-title="PL - Polish & Poland - Live",PL: Filmbox Premium FHD
+http://iptv_host.us:8880/username/password/133779
+#EXTINF:-1 tvg-id="Filmbox Premium HD" tvg-name="PL: Filmbox Premium HD" tvg-logo="./filmbox_premium_2.png" group-title="PL - Polish & Poland - Live",PL: Filmbox Premium HD
+http://iptv_host.us:8880/username/password/29519
+#EXTINF:-1 tvg-id="Fokus TV" tvg-name="PL: Fokus TV HD" tvg-logo="./fokus.png" group-title="PL - Polish & Poland - Live",PL: Fokus TV HD
+http://iptv_host.us:8880/username/password/133780
+#EXTINF:-1 tvg-id="Fokus TV" tvg-name="PL: Fokus TV HD" tvg-logo="./fokus_2.png" group-title="PL - Polish & Poland - Live",PL: Fokus TV HD
+http://iptv_host.us:8880/username/password/29520
+#EXTINF:-1 tvg-id="Food Network" tvg-name="PL: FOOD Network HD" tvg-logo="./food_network.png" group-title="PL - Polish & Poland - Live",PL: FOOD Network HD
+http://iptv_host.us:8880/username/password/29521
+#EXTINF:-1 tvg-id="FX Comedy" tvg-name="PL: FOX COMEDY" tvg-logo="./fx_comedy.png" group-title="PL - Polish & Poland - Live",PL: FOX COMEDY
+http://iptv_host.us:8880/username/password/708723
+#EXTINF:-1 tvg-id="Fox News" tvg-name="PL: FOX HD" tvg-logo="./fox_news.png" group-title="PL - Polish & Poland - Live",PL: FOX HD
+http://iptv_host.us:8880/username/password/60312
+#EXTINF:-1 tvg-id="Golf Channel" tvg-name="PL: GOLF Channel HD" tvg-logo="./golf.png" group-title="PL - Polish & Poland - Live",PL: GOLF Channel HD
+http://iptv_host.us:8880/username/password/60316
+#EXTINF:-1 tvg-id="History 2" tvg-name="PL: H2 HD" tvg-logo="./history_2.png" group-title="PL - Polish & Poland - Live",PL: H2 HD
+http://iptv_host.us:8880/username/password/29570
+#EXTINF:-1 tvg-id="HBO" tvg-name="PL: HBO 1 HD" tvg-logo="./hbo.png" group-title="PL - Polish & Poland - Live",PL: HBO 1 HD
+http://iptv_host.us:8880/username/password/29572
+#EXTINF:-1 tvg-id="HBO 2" tvg-name="PL: HBO 2 HD" tvg-logo="./hbo_2.png" group-title="PL - Polish & Poland - Live",PL: HBO 2 HD
+http://iptv_host.us:8880/username/password/29571
+#EXTINF:-1 tvg-id="HBO 3" tvg-name="PL: HBO 3 HD" tvg-logo="./hbo_3.png" group-title="PL - Polish & Poland - Live",PL: HBO 3 HD
+http://iptv_host.us:8880/username/password/481988
+#EXTINF:-1 tvg-id="HBO" tvg-name="PL: HBO HD" tvg-logo="./hbo_2.png" group-title="PL - Polish & Poland - Live",PL: HBO HD
+http://iptv_host.us:8880/username/password/60317
+#EXTINF:-1 tvg-id="HGTV" tvg-name="PL: HGTV" tvg-logo="./hgtv.png" group-title="PL - Polish & Poland - Live",PL: HGTV
+http://iptv_host.us:8880/username/password/708735
+#EXTINF:-1 tvg-id="HISTORY" tvg-name="PL: History HD" tvg-logo="./history.png" group-title="PL - Polish & Poland - Live",PL: History HD
+http://iptv_host.us:8880/username/password/29573
+#EXTINF:-1 tvg-id="ID" tvg-name="PL: Investigation Discovery HD" tvg-logo="./id.png" group-title="PL - Polish & Poland - Live",PL: Investigation Discovery HD
+http://iptv_host.us:8880/username/password/29574
+#EXTINF:-1 tvg-id="Kino TV" tvg-name="PL: KINO HD" tvg-logo="./kino.png" group-title="PL - Polish & Poland - Live",PL: KINO HD
+http://iptv_host.us:8880/username/password/29575
+#EXTINF:-1 tvg-id="Kino Polska" tvg-name="PL: KINO Polska HD" tvg-logo="./kino_2.png" group-title="PL - Polish & Poland - Live",PL: KINO Polska HD
+http://iptv_host.us:8880/username/password/60323
+#EXTINF:-1 tvg-id="Kino Polska Muzyka" tvg-name="PL: KINO Polska Muzyka HD" tvg-logo="./kino_muzyka.png" group-title="PL - Polish & Poland - Live",PL: KINO Polska Muzyka HD
+http://iptv_host.us:8880/username/password/60324
+#EXTINF:-1 tvg-id="Lifetime" tvg-name="PL: Lifetime HD" tvg-logo="./lifetime.png" group-title="PL - Polish & Poland - Live",PL: Lifetime HD
+http://iptv_host.us:8880/username/password/29577
+#EXTINF:-1 tvg-id="METRO" tvg-name="PL: Metro HD" tvg-logo="./metro.png" group-title="PL - Polish & Poland - Live",PL: Metro HD
+http://iptv_host.us:8880/username/password/60328
+#EXTINF:-1 tvg-id="Minimini+" tvg-name="PL: Minimini HD" tvg-logo="./minimini_plus.png" group-title="PL - Polish & Poland - Live",PL: Minimini HD
+http://iptv_host.us:8880/username/password/133786
+#EXTINF:-1 tvg-id="Minimini+" tvg-name="PL: Minimini+ HD" tvg-logo="./minimini_plus_2.png" group-title="PL - Polish & Poland - Live",PL: Minimini+ HD
+http://iptv_host.us:8880/username/password/29578
+#EXTINF:-1 tvg-id="MTV Live HD" tvg-name="PL: MTV LIVE FHD" tvg-logo="./mtv_live.png" group-title="PL - Polish & Poland - Live",PL: MTV LIVE FHD
+http://iptv_host.us:8880/username/password/133834
+#EXTINF:-1 tvg-id="Vox Music TV" tvg-name="PL: MUSIC VOX TV" tvg-logo="./vox_music.png" group-title="PL - Polish & Poland - Live",PL: MUSIC VOX TV
+http://iptv_host.us:8880/username/password/708738
+#EXTINF:-1 tvg-id="National Geographic Wild" tvg-name="PL: NAT GEO WILD HD" tvg-logo="./national_geographic_wild.png" group-title="PL - Polish & Poland - Live",PL: NAT GEO WILD HD
+http://iptv_host.us:8880/username/password/114058
+#EXTINF:-1 tvg-id="National Geographic Channel" tvg-name="PL: NAT-GEO" tvg-logo="./national_geographic.png" group-title="PL - Polish & Poland - Live",PL: NAT-GEO
+http://iptv_host.us:8880/username/password/708733
+#EXTINF:-1 tvg-id="National Geographic Channel" tvg-name="PL: National Geographic People HD" tvg-logo="./national_geographic.png" group-title="PL - Polish & Poland - Live",PL: National Geographic People HD
+http://iptv_host.us:8880/username/password/29581
+#EXTINF:-1 tvg-id="Nick Jr." tvg-name="PL: NICK JR HD" tvg-logo="./nick_jr.png" group-title="PL - Polish & Poland - Live",PL: NICK JR HD
+http://iptv_host.us:8880/username/password/114060
+#EXTINF:-1 tvg-id="NICKMUSIC" tvg-name="PL: NICK MUSIC" tvg-logo="./nickmusic.png" group-title="PL - Polish & Poland - Live",PL: NICK MUSIC
+http://iptv_host.us:8880/username/password/708730
+#EXTINF:-1 tvg-id="Nickelodeon" tvg-name="PL: Nickelodeon HD" tvg-logo="./nickelodeon.png" group-title="PL - Polish & Poland - Live",PL: Nickelodeon HD
+http://iptv_host.us:8880/username/password/29566
+#EXTINF:-1 tvg-id="Nicktoons" tvg-name="PL: Nicktoons HD" tvg-logo="./nicktoons.png" group-title="PL - Polish & Poland - Live",PL: Nicktoons HD
+http://iptv_host.us:8880/username/password/133835
+#EXTINF:-1 tvg-id="NOWA TV" tvg-name="PL: NOWA TV HD" tvg-logo="./nowa.png" group-title="PL - Polish & Poland - Live",PL: NOWA TV HD
+http://iptv_host.us:8880/username/password/133788
+#EXTINF:-1 tvg-id="Sport TV +" tvg-name="PL: Nsport HD" tvg-logo="./sport_plus.png" group-title="PL - Polish & Poland - Live",PL: Nsport HD
+http://iptv_host.us:8880/username/password/60336
+#EXTINF:-1 tvg-id="Novelas+" tvg-name="PL: Novelas+ HD" tvg-logo="./novelas_plus.png" group-title="PL - Polish & Poland - Live",PL: Novelas+ HD
+http://iptv_host.us:8880/username/password/592361
+#EXTINF:-1 tvg-id="Paramount Channel" tvg-name="PL: Paramount Channel HD" tvg-logo="./paramount.png" group-title="PL - Polish & Poland - Live",PL: Paramount Channel HD
+http://iptv_host.us:8880/username/password/133790
+#EXTINF:-1 tvg-id="Planete+" tvg-name="PL: PLANETE +" tvg-logo="./planete_plus.png" group-title="PL - Polish & Poland - Live",PL: PLANETE +
+http://iptv_host.us:8880/username/password/708731
+#EXTINF:-1 tvg-id="Polo TV" tvg-name="PL: POLO TV HD" tvg-logo="./polo.png" group-title="PL - Polish & Poland - Live",PL: POLO TV HD
+http://iptv_host.us:8880/username/password/60338
+#EXTINF:-1 tvg-id="Polsat 2" tvg-name="PL: Polsat 2 HD" tvg-logo="./polsat_2.png" group-title="PL - Polish & Poland - Live",PL: Polsat 2 HD
+http://iptv_host.us:8880/username/password/466157
+#EXTINF:-1 tvg-id="Polsat Café" tvg-name="PL: Polsat CAFE HD" tvg-logo="./polsat_cafe.png" group-title="PL - Polish & Poland - Live",PL: Polsat CAFE HD
+http://iptv_host.us:8880/username/password/539350
+#EXTINF:-1 tvg-id="Polsat Doku" tvg-name="PL: Polsat DOKU FHD" tvg-logo="./polsat_doku_2.png" group-title="PL - Polish & Poland - Live",PL: Polsat DOKU FHD
+http://iptv_host.us:8880/username/password/133791
+#EXTINF:-1 tvg-id="Polsat Film" tvg-name="PL: Polsat FILM HD" tvg-logo="./polsat_film.png" group-title="PL - Polish & Poland - Live",PL: Polsat FILM HD
+http://iptv_host.us:8880/username/password/29587
+#EXTINF:-1 tvg-id="Polsat Games" tvg-name="PL: Polsat Games HD" tvg-logo="./polsat_games.png" group-title="PL - Polish & Poland - Live",PL: Polsat Games HD
+http://iptv_host.us:8880/username/password/29532
+#EXTINF:-1 tvg-id="Polsat" tvg-name="PL: Polsat HD" tvg-logo="./polsat.png" group-title="PL - Polish & Poland - Live",PL: Polsat HD
+http://iptv_host.us:8880/username/password/545737
+#EXTINF:-1 tvg-id="Polsat JimJam" tvg-name="PL: Polsat JIM JAM HD" tvg-logo="./polsat_jimjam.png" group-title="PL - Polish & Poland - Live",PL: Polsat JIM JAM HD
+http://iptv_host.us:8880/username/password/29589
+#EXTINF:-1 tvg-id="Polsat Music" tvg-name="PL: Polsat Music HD" tvg-logo="./polsat_music.png" group-title="PL - Polish & Poland - Live",PL: Polsat Music HD
+http://iptv_host.us:8880/username/password/29533
+#EXTINF:-1 tvg-id="Polsat Music" tvg-name="PL: Polsat Music FHD" tvg-logo="./polsat_music_2.png" group-title="PL - Polish & Poland - Live",PL: Polsat Music FHD
+http://iptv_host.us:8880/username/password/133792
+#EXTINF:-1 tvg-id="Polsat News" tvg-name="PL: Polsat NEWS HD" tvg-logo="./polsat_news.png" group-title="PL - Polish & Poland - Live",PL: Polsat NEWS HD
+http://iptv_host.us:8880/username/password/638461
+#EXTINF:-1 tvg-id="POLSAT NEWS 2" tvg-name="PL: Polsat NEWS 2 HD" tvg-logo="./polsat_news_2.png" group-title="PL - Polish & Poland - Live",PL: Polsat NEWS 2 HD
+http://iptv_host.us:8880/username/password/29527
+#EXTINF:-1 tvg-id="Polsat Play" tvg-name="PL: Polsat PLAY HD" tvg-logo="./polsat_play.png" group-title="PL - Polish & Poland - Live",PL: Polsat PLAY HD
+http://iptv_host.us:8880/username/password/114143
+#EXTINF:-1 tvg-id="Polsat Rodzina" tvg-name="PL: Polsat Rodzina HD" tvg-logo="./polsat_rodzina.png" group-title="PL - Polish & Poland - Live",PL: Polsat Rodzina HD
+http://iptv_host.us:8880/username/password/29528
+#EXTINF:-1 tvg-id="Polsat Rodzina" tvg-name="PL: Polsat Rodzina HD" tvg-logo="./polsat_rodzina_2.png" group-title="PL - Polish & Poland - Live",PL: Polsat Rodzina HD
+http://iptv_host.us:8880/username/password/133840
+#EXTINF:-1 tvg-id="POLSAT ROMANS" tvg-name="PL: Polsat Romance HD" tvg-logo="./polsat_romans.png" group-title="PL - Polish & Poland - Live",PL: Polsat Romance HD
+http://iptv_host.us:8880/username/password/114125
+#EXTINF:-1 tvg-id="Polsat Sport Extra" tvg-name="PL: Polsat Sport Extra HD" tvg-logo="./polsat_sport_extra.png" group-title="PL - Polish & Poland - Live",PL: Polsat Sport Extra HD
+http://iptv_host.us:8880/username/password/29591
+#EXTINF:-1 tvg-id="Polsat Sport Extra" tvg-name="PL: Polsat Sport Extra HD" tvg-logo="./polsat_sport_extra.png" group-title="PL - Polish & Poland - Live",PL: Polsat Sport Extra HD
+http://iptv_host.us:8880/username/password/133793
+#EXTINF:-1 tvg-id="Polsat Sport Fight" tvg-name="PL: Polsat Sport Fight FHD" tvg-logo="./polsat_sport_fight.png" group-title="PL - Polish & Poland - Live",PL: Polsat Sport Fight FHD
+http://iptv_host.us:8880/username/password/133795
+#EXTINF:-1 tvg-id="Polsat Sport" tvg-name="PL: Polsat Sport HD" tvg-logo="./polsat_sport.png" group-title="PL - Polish & Poland - Live",PL: Polsat Sport HD
+http://iptv_host.us:8880/username/password/613285
+#EXTINF:-1 tvg-id="Polsat Sport Fight" tvg-name="PL: Polsat Sport Fight HD" tvg-logo="./polsat_sport_fight_2.png" group-title="PL - Polish & Poland - Live",PL: Polsat Sport Fight HD
+http://iptv_host.us:8880/username/password/29534
+#EXTINF:-1 tvg-id="Polsat Sport News" tvg-name="PL: Polsat Sport NEWS HD" tvg-logo="./polsat_sport_news.png" group-title="PL - Polish & Poland - Live",PL: Polsat Sport NEWS HD
+http://iptv_host.us:8880/username/password/29593
+#EXTINF:-1 tvg-id="Polsat Sport Premium 1" tvg-name="PL: Polsat Sport Premium 1 HD" tvg-logo="./polsat_sport_premium_1.png" group-title="PL - Polish & Poland - Live",PL: Polsat Sport Premium 1 HD
+http://iptv_host.us:8880/username/password/29619
+#EXTINF:-1 tvg-id="Polsat Sport Premium 2" tvg-name="PL: Polsat Sport Premium 2 HD" tvg-logo="./polsat_sport_premium_2.png" group-title="PL - Polish & Poland - Live",PL: Polsat Sport Premium 2 HD
+http://iptv_host.us:8880/username/password/60357
+#EXTINF:-1 tvg-id="Polsat Sport Premium 3" tvg-name="PL: Polsat Sport Premium 3 HD" tvg-logo="./polsat_sport_premium_3.png" group-title="PL - Polish & Poland - Live",PL: Polsat Sport Premium 3 HD
+http://iptv_host.us:8880/username/password/133843
+#EXTINF:-1 tvg-id="Polsat Sport Premium 6" tvg-name="PL: Polsat Sport Premium 6 HD" tvg-logo="./polsat_sport_premium_6.png" group-title="PL - Polish & Poland - Live",PL: Polsat Sport Premium 6 HD
+http://iptv_host.us:8880/username/password/114127
+#EXTINF:-1 tvg-id="Polsat Sport Premium 3" tvg-name="PL: Polsat Sport Premium PPV 3 FHD" tvg-logo="./polsat_sport_premium_3.png" group-title="PL - Polish & Poland - Live",PL: Polsat Sport Premium PPV 3 FHD
+http://iptv_host.us:8880/username/password/460105
+#EXTINF:-1 tvg-id="Polsat Sport Premium 4" tvg-name="PL: Polsat Sport Premium PPV 4 HD" tvg-logo="./polsat_sport_premium_6.png" group-title="PL - Polish & Poland - Live",PL: Polsat Sport Premium PPV 4 HD
+http://iptv_host.us:8880/username/password/460106
+#EXTINF:-1 tvg-id="Polsat Sport Premium 5" tvg-name="PL: Polsat Sport Premium PPV 5 FHD" tvg-logo="./polsat_sport_premium_6.png" group-title="PL - Polish & Poland - Live",PL: Polsat Sport Premium PPV 5 FHD
+http://iptv_host.us:8880/username/password/460107
+#EXTINF:-1 tvg-id="Polsat Sport Premium 6" tvg-name="PL: Polsat Sport Premium PPV 6 FHD" tvg-logo="./polsat_sport_premium_6.png" group-title="PL - Polish & Poland - Live",PL: Polsat Sport Premium PPV 6 FHD
+http://iptv_host.us:8880/username/password/460108
+#EXTINF:-1 tvg-id="POLSAT Viasat Explore" tvg-name="PL: Polsat Viasat Explore FHD" tvg-logo="./polsat_viasat_explore.png" group-title="PL - Polish & Poland - Live",PL: Polsat Viasat Explore FHD
+http://iptv_host.us:8880/username/password/133796
+#EXTINF:-1 tvg-id="POLSAT Viasat Explore" tvg-name="PL: Polsat Viasat Explore HD" tvg-logo="./polsat_viasat_explore_2.png" group-title="PL - Polish & Poland - Live",PL: Polsat Viasat Explore HD
+http://iptv_host.us:8880/username/password/29530
+#EXTINF:-1 tvg-id="Polsat Viasat History" tvg-name="PL: Polsat Viasat History FHD" tvg-logo="./polsat_viasat_history.png" group-title="PL - Polish & Poland - Live",PL: Polsat Viasat History FHD
+http://iptv_host.us:8880/username/password/133797
+#EXTINF:-1 tvg-id="Polsat Viasat History" tvg-name="PL: Polsat Viasat History HD" tvg-logo="./polsat_viasat_history_2.png" group-title="PL - Polish & Poland - Live",PL: Polsat Viasat History HD
+http://iptv_host.us:8880/username/password/29531
+#EXTINF:-1 tvg-id="Polsat Viasat Nature" tvg-name="PL: Polsat Viasat Nature HD" tvg-logo="./polsat_viasat_nature.png" group-title="PL - Polish & Poland - Live",PL: Polsat Viasat Nature HD
+http://iptv_host.us:8880/username/password/60360
+#EXTINF:-1 tvg-id="POWER TV" tvg-name="PL: Power TV HD" tvg-logo="./power.png" group-title="PL - Polish & Poland - Live",PL: Power TV HD
+http://iptv_host.us:8880/username/password/133798
+#EXTINF:-1 tvg-id="Puls 2" tvg-name="PL: PULS 2 HD" tvg-logo="./puls_2.png" group-title="PL - Polish & Poland - Live",PL: PULS 2 HD
+http://iptv_host.us:8880/username/password/60361
+#EXTINF:-1 tvg-id="ROMANCE TV" tvg-name="PL: Romance TV HD" tvg-logo="./romance.png" group-title="PL - Polish & Poland - Live",PL: Romance TV HD
+http://iptv_host.us:8880/username/password/114128
+#EXTINF:-1 tvg-id="SCI FI" tvg-name="PL: Scifi HD" tvg-logo="./sci_fi.png" group-title="PL - Polish & Poland - Live",PL: Scifi HD
+http://iptv_host.us:8880/username/password/60364
+#EXTINF:-1 tvg-id="" tvg-name="PL: Scifi Universal HD" tvg-logo="./scifi_universal.png" group-title="PL - Polish & Poland - Live",PL: Scifi Universal HD
+http://iptv_host.us:8880/username/password/114129
+#EXTINF:-1 tvg-id="" tvg-name="PL: Scifi Universal HD" tvg-logo="./scifi_universal.png" group-title="PL - Polish & Poland - Live",PL: Scifi Universal HD
+http://iptv_host.us:8880/username/password/29595
+#EXTINF:-1 tvg-id="Sportklub" tvg-name="PL: Sport KLUB HD" tvg-logo="./sportklub.png" group-title="PL - Polish & Poland - Live",PL: Sport KLUB HD
+http://iptv_host.us:8880/username/password/29536
+#EXTINF:-1 tvg-id="Sportklub" tvg-name="PL: Sport KLUB Polska HD" tvg-logo="./sportklub_2.png" group-title="PL - Polish & Poland - Live",PL: Sport KLUB Polska HD
+http://iptv_host.us:8880/username/password/114069
+#EXTINF:-1 tvg-id="Stopklatka TV" tvg-name="PL: Stopklatka TV HD" tvg-logo="./stopklatka.png" group-title="PL - Polish & Poland - Live",PL: Stopklatka TV HD
+http://iptv_host.us:8880/username/password/133799
+#EXTINF:-1 tvg-id="Sundance TV" tvg-name="PL: Sundance HD" tvg-logo="./sundance.png" group-title="PL - Polish & Poland - Live",PL: Sundance HD
+http://iptv_host.us:8880/username/password/29596
+#EXTINF:-1 tvg-id="Super Polsat" tvg-name="PL: Super Polsat HD" tvg-logo="./super_polsat.png" group-title="PL - Polish & Poland - Live",PL: Super Polsat HD
+http://iptv_host.us:8880/username/password/60370
+#EXTINF:-1 tvg-id="Super Polsat" tvg-name="PL: Super Polsat HD" tvg-logo="./super_polsat_2.png" group-title="PL - Polish & Poland - Live",PL: Super Polsat HD
+http://iptv_host.us:8880/username/password/29597
+#EXTINF:-1 tvg-id="TeenNick" tvg-name="PL: TEENNICK" tvg-logo="./teennick.png" group-title="PL - Polish & Poland - Live",PL: TEENNICK
+http://iptv_host.us:8880/username/password/708726
+#EXTINF:-1 tvg-id="Teletoon" tvg-name="PL: Teletoon+ HD" tvg-logo="./teletoon.png" group-title="PL - Polish & Poland - Live",PL: Teletoon+ HD
+http://iptv_host.us:8880/username/password/29567
+#EXTINF:-1 tvg-id="TLC" tvg-name="PL: TLC TV HD" tvg-logo="./tlc.png" group-title="PL - Polish & Poland - Live",PL: TLC TV HD
+http://iptv_host.us:8880/username/password/686478
+#EXTINF:-1 tvg-id="TVN" tvg-name="PL: TNT HD" tvg-logo="./tvn.png" group-title="PL - Polish & Poland - Live",PL: TNT HD
+http://iptv_host.us:8880/username/password/133800
+#EXTINF:-1 tvg-id="TVN" tvg-name="PL: TNT HD" tvg-logo="./tvn_2.png" group-title="PL - Polish & Poland - Live",PL: TNT HD
+http://iptv_host.us:8880/username/password/29599
+#EXTINF:-1 tvg-id="Travelxp 4K" tvg-name="PL: TRAVEL HD" tvg-logo="./travelxp.png" group-title="PL - Polish & Poland - Live",PL: TRAVEL HD
+http://iptv_host.us:8880/username/password/708732
+#EXTINF:-1 tvg-id="TTV" tvg-name="PL: TTV HD" tvg-logo="./ttv.png" group-title="PL - Polish & Poland - Live",PL: TTV HD
+http://iptv_host.us:8880/username/password/60226
+#EXTINF:-1 tvg-id="TV 4" tvg-name="PL: TV 4 HD" tvg-logo="./4.png" group-title="PL - Polish & Poland - Live",PL: TV 4 HD
+http://iptv_host.us:8880/username/password/29601
+#EXTINF:-1 tvg-id="TV 6" tvg-name="PL: TV 6 HD" tvg-logo="./6.png" group-title="PL - Polish & Poland - Live",PL: TV 6 HD
+http://iptv_host.us:8880/username/password/29602
+#EXTINF:-1 tvg-id="Puls 2" tvg-name="PL: TV PULS 2 HD" tvg-logo="./puls_2_2.png" group-title="PL - Polish & Poland - Live",PL: TV PULS 2 HD
+http://iptv_host.us:8880/username/password/643467
+#EXTINF:-1 tvg-id="TV Puls" tvg-name="PL: TV PULS HD" tvg-logo="./puls.png" group-title="PL - Polish & Poland - Live",PL: TV PULS HD
+http://iptv_host.us:8880/username/password/643468
+#EXTINF:-1 tvg-id="Republika" tvg-name="PL: TV Republika HD" tvg-logo="./republika.png" group-title="PL - Polish & Poland - Live",PL: TV Republika HD
+http://iptv_host.us:8880/username/password/60229
+#EXTINF:-1 tvg-id="TV 4" tvg-name="PL: TV4 HD" tvg-logo="./4.png" group-title="PL - Polish & Poland - Live",PL: TV4 HD
+http://iptv_host.us:8880/username/password/60230
+#EXTINF:-1 tvg-id="TVN 24" tvg-name="PL: TVN 24 HD" tvg-logo="./tvn_24.png" group-title="PL - Polish & Poland - Live",PL: TVN 24 HD
+http://iptv_host.us:8880/username/password/29604
+#EXTINF:-1 tvg-id="TVN 24" tvg-name="PL: TVN 24 HD" tvg-logo="./tvn_24_2.png" group-title="PL - Polish & Poland - Live",PL: TVN 24 HD
+http://iptv_host.us:8880/username/password/133801
+#EXTINF:-1 tvg-id="TVN 7" tvg-name="PL: TVN 7 4K+ HD" tvg-logo="./tvn_7.png" group-title="PL - Polish & Poland - Live",PL: TVN 7 4K+ HD
+http://iptv_host.us:8880/username/password/144280
+#EXTINF:-1 tvg-id="TVN 7" tvg-name="PL: TVN 7 HD" tvg-logo="./tvn_7_2.png" group-title="PL - Polish & Poland - Live",PL: TVN 7 HD
+http://iptv_host.us:8880/username/password/29525
+#EXTINF:-1 tvg-id="TVN 7" tvg-name="PL: TVN 7 HD" tvg-logo="./tvn_7_3.png" group-title="PL - Polish & Poland - Live",PL: TVN 7 HD
+http://iptv_host.us:8880/username/password/133802
+#EXTINF:-1 tvg-id="TVN Fabuła" tvg-name="PL: TVN Fabula HD" tvg-logo="./tvn_fabua.png" group-title="PL - Polish & Poland - Live",PL: TVN Fabula HD
+http://iptv_host.us:8880/username/password/29605
+#EXTINF:-1 tvg-id="TVN Fabuła" tvg-name="PL: TVN Fabula HD" tvg-logo="./tvn_fabua_2.png" group-title="PL - Polish & Poland - Live",PL: TVN Fabula HD
+http://iptv_host.us:8880/username/password/60234
+#EXTINF:-1 tvg-id="TVN Style" tvg-name="PL: TVN Style HD" tvg-logo="./tvn_style.png" group-title="PL - Polish & Poland - Live",PL: TVN Style HD
+http://iptv_host.us:8880/username/password/29606
+#EXTINF:-1 tvg-id="TVN Turbo" tvg-name="PL: TVN Turbo FHD" tvg-logo="./tvn_turbo.png" group-title="PL - Polish & Poland - Live",PL: TVN Turbo FHD
+http://iptv_host.us:8880/username/password/133805
+#EXTINF:-1 tvg-id="TVN Turbo" tvg-name="PL: TVN Turbo HD" tvg-logo="./tvn_turbo_2.png" group-title="PL - Polish & Poland - Live",PL: TVN Turbo HD
+http://iptv_host.us:8880/username/password/29607
+#EXTINF:-1 tvg-id="TVN" tvg-name="PL: TVN TV HD" tvg-logo="./tvn_3.png" group-title="PL - Polish & Poland - Live",PL: TVN TV HD
+http://iptv_host.us:8880/username/password/29603
+#EXTINF:-1 tvg-id="TVP 1" tvg-name="PL: TVP 1 HD 1080p" tvg-logo="./tvp_1.png" group-title="PL - Polish & Poland - Live",PL: TVP 1 HD 1080p
+http://iptv_host.us:8880/username/password/114073
+#EXTINF:-1 tvg-id="TVP 1" tvg-name="PL: TVP 1 HD" tvg-logo="./tvp_1_2.png" group-title="PL - Polish & Poland - Live",PL: TVP 1 HD
+http://iptv_host.us:8880/username/password/29612
+#EXTINF:-1 tvg-id="TVP 2" tvg-name="PL: TVP 2 HD 1080p" tvg-logo="./tvp_2.png" group-title="PL - Polish & Poland - Live",PL: TVP 2 HD 1080p
+http://iptv_host.us:8880/username/password/114074
+#EXTINF:-1 tvg-id="TVP 2" tvg-name="PL: TVP 2 HD" tvg-logo="./tvp_2_2.png" group-title="PL - Polish & Poland - Live",PL: TVP 2 HD
+http://iptv_host.us:8880/username/password/29613
+#EXTINF:-1 tvg-id="TVP 3" tvg-name="PL: TVP 3 HD" tvg-logo="./tvp_3.png" group-title="PL - Polish & Poland - Live",PL: TVP 3 HD
+http://iptv_host.us:8880/username/password/60225
+#EXTINF:-1 tvg-id="TVP ABC" tvg-name="PL: TVP ABC HD" tvg-logo="./tvp_abc.png" group-title="PL - Polish & Poland - Live",PL: TVP ABC HD
+http://iptv_host.us:8880/username/password/29608
+#EXTINF:-1 tvg-id="TVP ABC" tvg-name="PL: TVP ABC HD" tvg-logo="./tvp_abc_2.png" group-title="PL - Polish & Poland - Live",PL: TVP ABC HD
+http://iptv_host.us:8880/username/password/60238
+#EXTINF:-1 tvg-id="TVP Info" tvg-name="PL: TVP INFO 4K+ HD" tvg-logo="./tvp_info.png" group-title="PL - Polish & Poland - Live",PL: TVP INFO 4K+ HD
+http://iptv_host.us:8880/username/password/144274
+#EXTINF:-1 tvg-id="TVP 4K" tvg-name="PL: TVP HD" tvg-logo="./tvp.png" group-title="PL - Polish & Poland - Live",PL: TVP HD
+http://iptv_host.us:8880/username/password/683757
+#EXTINF:-1 tvg-id="TVP Historia" tvg-name="PL: TVP Historia HD" tvg-logo="./tvp_historia.png" group-title="PL - Polish & Poland - Live",PL: TVP Historia HD
+http://iptv_host.us:8880/username/password/60240
+#EXTINF:-1 tvg-id="TVP Info" tvg-name="PL: TVP INFO HD" tvg-logo="./tvp_info_2.png" group-title="PL - Polish & Poland - Live",PL: TVP INFO HD
+http://iptv_host.us:8880/username/password/29523
+#EXTINF:-1 tvg-id="TVP Info" tvg-name="PL: TVP INFO HD" tvg-logo="./tvp_info_3.png" group-title="PL - Polish & Poland - Live",PL: TVP INFO HD
+http://iptv_host.us:8880/username/password/133806
+#EXTINF:-1 tvg-id="TVP Kultura" tvg-name="PL: TVP Kultura HD" tvg-logo="./tvp_kultura.png" group-title="PL - Polish & Poland - Live",PL: TVP Kultura HD
+http://iptv_host.us:8880/username/password/29610
+#EXTINF:-1 tvg-id="TVP Kultura" tvg-name="PL: TVP Kultura HD" tvg-logo="./tvp_kultura_2.png" group-title="PL - Polish & Poland - Live",PL: TVP Kultura HD
+http://iptv_host.us:8880/username/password/60242
+#EXTINF:-1 tvg-id="TVP Polonia" tvg-name="PL: TVP Polonia HD" tvg-logo="./tvp_polonia.png" group-title="PL - Polish & Poland - Live",PL: TVP Polonia HD
+http://iptv_host.us:8880/username/password/29526
+#EXTINF:-1 tvg-id="TVP Polonia" tvg-name="PL: TVP Polonia HD" tvg-logo="./tvp_polonia.png" group-title="PL - Polish & Poland - Live",PL: TVP Polonia HD
+http://iptv_host.us:8880/username/password/114137
+#EXTINF:-1 tvg-id="TVP Rozrywka" tvg-name="PL: TVP Rozrywka HD" tvg-logo="./tvp_rozrywka_2.png" group-title="PL - Polish & Poland - Live",PL: TVP Rozrywka HD
+http://iptv_host.us:8880/username/password/60243
+#EXTINF:-1 tvg-id="TVP Seriale" tvg-name="PL: TVP Seriale HD" tvg-logo="./tvp_seriale.png" group-title="PL - Polish & Poland - Live",PL: TVP Seriale HD
+http://iptv_host.us:8880/username/password/29611
+#EXTINF:-1 tvg-id="TVP Seriale" tvg-name="PL: TVP Seriale HD" tvg-logo="./tvp_seriale_2.png" group-title="PL - Polish & Poland - Live",PL: TVP Seriale HD
+http://iptv_host.us:8880/username/password/60244
+#EXTINF:-1 tvg-id="TVP Sport" tvg-name="PL: TVP Sport HD" tvg-logo="./tvp_sport.png" group-title="PL - Polish & Poland - Live",PL: TVP Sport HD
+http://iptv_host.us:8880/username/password/29535
+#EXTINF:-1 tvg-id="TVP Sport" tvg-name="PL: TVP Sport HD" tvg-logo="./tvp_sport_2.png" group-title="PL - Polish & Poland - Live",PL: TVP Sport HD
+http://iptv_host.us:8880/username/password/114075
+#EXTINF:-1 tvg-id="TVS" tvg-name="PL: TVS TV HD" tvg-logo="./tvs.png" group-title="PL - Polish & Poland - Live",PL: TVS TV HD
+http://iptv_host.us:8880/username/password/29615
+#EXTINF:-1 tvg-id="Junior Channel" tvg-name="PL: Universal Channel HD" tvg-logo="./junior.png" group-title="PL - Polish & Poland - Live",PL: Universal Channel HD
+http://iptv_host.us:8880/username/password/114139
+#EXTINF:-1 tvg-id="" tvg-name="PL: Universal HD" tvg-logo="./junior.png" group-title="PL - Polish & Poland - Live",PL: Universal HD
+http://iptv_host.us:8880/username/password/114078
+#EXTINF:-1 tvg-id="" tvg-name="PL: VH1 HD" tvg-logo="./vh1.png" group-title="PL - Polish & Poland - Live",PL: VH1 HD
+http://iptv_host.us:8880/username/password/114079
+#EXTINF:-1 tvg-id="Warner TV" tvg-name="PL: WARNER TV" tvg-logo="./warner.png" group-title="PL - Polish & Poland - Live",PL: WARNER TV
+http://iptv_host.us:8880/username/password/708722
+#EXTINF:-1 tvg-id="WP" tvg-name="PL: WP HD" tvg-logo="./wp.png" group-title="PL - Polish & Poland - Live",PL: WP HD
+http://iptv_host.us:8880/username/password/582560
+#EXTINF:-1 tvg-id="ZOOM TV" tvg-name="PL: ZOOM TV HD" tvg-logo="./zoom.png" group-title="PL - Polish & Poland - Live",PL: ZOOM TV HD
+http://iptv_host.us:8880/username/password/60380
+#EXTINF:-1 tvg-id="13 Ulica" tvg-name="PL: 13 Ulica FHD" tvg-logo="./13_ulica.png" group-title="PL - Polish & Poland - Live",PL: 13 Ulica FHD
+http://iptv_host.us:8880/username/password/114084
+#EXTINF:-1 tvg-id="4FUN DANCE" tvg-name="PL: 4FUN Dance HD" tvg-logo="./4fun_dance.png" group-title="PL - Polish & Poland - Live",PL: 4FUN Dance HD
+http://iptv_host.us:8880/username/password/60247
+#EXTINF:-1 tvg-id="4FUN KIDS" tvg-name="PL: 4FUN KIDS HD" tvg-logo="./4fun_kids.png" group-title="PL - Polish & Poland - Live",PL: 4FUN KIDS HD
+http://iptv_host.us:8880/username/password/696331
+#EXTINF:-1 tvg-id="4FUN TV" tvg-name="PL: 4FUNTV" tvg-logo="./4fun.png" group-title="PL - Polish & Poland - Live",PL: 4FUNTV
+http://iptv_host.us:8880/username/password/708740
+#EXTINF:-1 tvg-id="Canal+ Extra 1" tvg-name=" PL | Canal+ Extra 1" tvg-logo="./canal_plus_extra_1.png" group-title="PL - Polish & Poland - Live", PL | Canal+ Extra 1
+http://iptv_host.us:8880/username/password/898382
+#EXTINF:-1 tvg-id="Canal+ Extra 2" tvg-name=" PL | Canal+ Extra 2" tvg-logo="./canal_plus_extra_2.png" group-title="PL - Polish & Poland - Live", PL | Canal+ Extra 2
+http://iptv_host.us:8880/username/password/898383
+#EXTINF:-1 tvg-id="Canal+ Extra 3" tvg-name=" PL | Canal+ Extra 3" tvg-logo="./canal_plus_extra_3.png" group-title="PL - Polish & Poland - Live", PL | Canal+ Extra 3
+http://iptv_host.us:8880/username/password/898384
+#EXTINF:-1 tvg-id="Canal+ Extra 4" tvg-name=" PL | Canal+ Extra 4" tvg-logo="./canal_plus_extra_4.png" group-title="PL - Polish & Poland - Live", PL | Canal+ Extra 4
+http://iptv_host.us:8880/username/password/898385
+#EXTINF:-1 tvg-id="Canal+ Extra 5" tvg-name=" PL | Canal+ Extra 5" tvg-logo="./canal_plus_extra_5.png" group-title="PL - Polish & Poland - Live", PL | Canal+ Extra 5
+http://iptv_host.us:8880/username/password/898386
+#EXTINF:-1 tvg-id="Canal+ Extra 6" tvg-name=" PL | Canal+ Extra 6" tvg-logo="./canal_plus_extra_6.png" group-title="PL - Polish & Poland - Live", PL | Canal+ Extra 6
+http://iptv_host.us:8880/username/password/898387
+#EXTINF:-1 tvg-id="Canal+ Extra 7" tvg-name=" PL | Canal+ Extra 7" tvg-logo="./canal_plus_extra_6.png" group-title="PL - Polish & Poland - Live", PL | Canal+ Extra 7
+http://iptv_host.us:8880/username/password/898388
+#EXTINF:-1 tvg-id="Motowizja" tvg-name="PL: Motowizja" tvg-logo="./motowizja.png" group-title="PL - Polish & Poland - Live",PL: Motowizja
+http://iptv_host.us:8880/username/password/899734
+#EXTINF:-1 tvg-id="" tvg-name="PL: VIAPLAY 1" tvg-logo="./viaplay_1.png" group-title="PL - Viaplay Events - Events",PL: VIAPLAY 1
+http://iptv_host.us:8880/username/password/816045
+#EXTINF:-1 tvg-id="" tvg-name="Edit: Subscription & Subscribe Movies" tvg-logo="http://img-cdn.curl.pk:8880/channels_icon_api/a45fc302afc5bb1f26890b062205d9bb.png" group-title="No Movies Subscribe",Edit: Subscription & Subscribe Movies
+http://iptv_host.us:8880/movie/username/password/797513.mkv
